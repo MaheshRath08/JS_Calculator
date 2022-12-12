@@ -1,6 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(194, 179, 179);
 }
 .container{
     position: absolute;
@@ -10,16 +14,21 @@
 }
 .keys{
     font-size: 2rem;
-    border: 1px solid black;
+    box-shadow: 0 0 5px 1px indianred;
+    border-radius: 5px;
     width: 75px;
     height: 75px;
     text-align: center;
     cursor: pointer;
+    background-color: #ebebeb;
 }
 .display{
     font-size: 2rem;
     width: 315px;
     height: 90px;
     line-height: 90px;
-    border: 1px solid black;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 0 5px 1px indianred;
+    background-color: #ebebeb;
+    border-radius: 5px;
 }
