@@ -14,7 +14,7 @@ function calculation(e){
         value = ""
     }else if(e=="←"){
         value = value.slice(0, - 1)
-    }else if(e=="="){
+    }else if(e=="=" && value!=""){
         let ans = eval(value)
         value += e
         value += ans
