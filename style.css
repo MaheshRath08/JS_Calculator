@@ -21,6 +21,7 @@ body{
     text-align: center;
     cursor: pointer;
     background-color: #ebebeb;
+    color: #494949;
 }
 .equals{
     background-color: cadetblue;
@@ -36,8 +37,8 @@ body{
 .display{
     font-size: 2rem;
     width: 315px;
-    height: 90px;
-    line-height: 90px;
+    height: 110px;
+    line-height: 110px;
     border: 1px solid #ebebeb;
     box-shadow: 0 0 5px 1px indianred;
     background-color: #ebebeb;
