@@ -4,7 +4,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: rgb(194, 179, 179);
+    background-color: #494949;
 }
 .container{
     position: absolute;
@@ -29,6 +29,9 @@ body{
 .keys:hover{
     transform: scale(1.1);
     background-color: #e5a5a5;
+}
+.equals:hover{
+    background-color: cadetblue;
 }
 .display{
     font-size: 2rem;
